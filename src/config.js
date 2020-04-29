@@ -1,7 +1,8 @@
 export default {
-    s3: {
+  STRIPE_KEY: "pk_test_FIM2KEsgcxprLO0ae5N9UQoT00qMeFxXBR",  
+  s3: {
       REGION: "eu-central-1",
-      BUCKET: "Ywesnotes-app-uploads"
+      BUCKET: "wesnotes-app-uploads"
     },
     apiGateway: {
       REGION: "eu-central-1",
@@ -13,6 +14,8 @@ export default {
       APP_CLIENT_ID: "1eg4hnqvel4htub35nstpmhr6",
       IDENTITY_POOL_ID: "eu-central-1:927f5f17-2ff6-4cbe-a511-1a3879f96c1f"
     }
+
+    
   };
 
 
