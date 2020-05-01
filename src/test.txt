@@ -1,0 +1,15 @@
+npx aws-api-gateway-cli-test \
+--username='wesseldehaas@gmail.com' \
+--password='Agamemnon75^' \
+--user-pool-id='eu-central-1_n37XWklDl' \
+--app-client-id='6jq0h4nb3tpcnlepoqg6bj3c8t' \
+--cognito-region='eu-central-1' \
+--identity-pool-id='eu-central-1:378e9afb-ef8e-4dc8-93f8-b223f61a44af' \
+--invoke-url='https://api.fieldofwez.com/dev' \
+--api-gateway-region='eu-central-1' \
+--path-template='/notes' \
+--method='POST' \
+--body='{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}'
+
+
+npx aws-api-gateway-cli-test --username="wesseldehaas@gmail.com" --password="Agamemnon75^" --user-pool-id="eu-central-1_n37XWklDl" --app-client-id="6jq0h4nb3tpcnlepoqg6bj3c8t" --cognito-region="eu-central-1" --identity-pool-id="eu-central-1:378e9afb-ef8e-4dc8-93f8-b223f61a44af" --invoke-url="https://api.fieldofwez.com/dev" --api-gateway-region="eu-central-1" --path-template="/notes" --method="POST" --body="{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}"

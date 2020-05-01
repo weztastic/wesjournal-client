@@ -6,7 +6,7 @@ const dev = {
   },
   apiGateway: {
     REGION: "eu-central-1",
-    URL: "api.fieldofwez.com/dev"
+    URL: "https://api.fieldofwez.com/dev"
   },
   cognito: {
     REGION: "eu-central-1",
@@ -24,7 +24,7 @@ const prod = {
   },
   apiGateway: {
     REGION: "eu-central-1",
-    URL: "api.fieldofwez.com/prod"
+    URL: "https://api.fieldofwez.com/prod"
   },
   cognito: {
     REGION: "eu-central-1",
